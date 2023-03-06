@@ -4,6 +4,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background-color: rgb(129, 144, 144);
+}
+
 .banner {
   height: 10vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 6)),
@@ -77,28 +81,28 @@ main {
 .side-heading {
   width: 15%;
   border-right: 5px solid rgb(74, 125, 155);
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
-.side-heading h3{
+.side-heading h3 {
   text-align: right;
-  margin-left: 2%;
-  word-wrap:wrap;
+  margin-left: 1%;
+  word-wrap: wrap;
 }
 
 .info {
   width: 80%;
-  display:flex;
+  display: flex;
 }
 
-.info img{
-  width:50%;
-  height:80%;
+.info img {
+  width: 50%;
+  height: 80%;
   border-radius: 20px;
   margin-top: 5%;
 }
-.info p{
+.info p {
   text-align: center;
   word-wrap: wrap;
   font-size: 1rem;
@@ -113,14 +117,22 @@ main {
   float: left;
   border-right: solid;
 }
-#endeavors{
-  flex-wrap:wrap;
+#endeavors {
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  
 }
 
-.project-link{
-  width:45%;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+}
+.item {
+  margin: 5px;
+}
+.project-link {
+  width: 45%;
   height: 40vh;
 }
 
