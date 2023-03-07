@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(129, 144, 144);
+  background-color: rgb(140, 210, 210);
 }
 
 .banner {
@@ -82,20 +82,27 @@ main {
   width: 15%;
   border-right: 5px solid rgb(74, 125, 155);
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .side-heading h3 {
   text-align: right;
   margin-left: 1%;
   word-wrap: wrap;
+  flex: 0 0 20%;
 }
 
 .info {
   width: 80%;
   display: flex;
 }
-
+.placeholder {
+  display: flex;
+}
+.placeholder img{
+  width: 425px;
+  height: 400px
+}
 .info img {
   width: 50%;
   height: 80%;
@@ -117,24 +124,28 @@ main {
   float: left;
   border-right: solid;
 }
-#endeavors {
+.work {
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+.contact {
+  flex-wrap: nowrap;
+  text-align: end;
+  margin-left: 1%;
+  justify-content: center;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 5px;
-  justify-content: center;
 }
 .item {
   margin: 5px;
 }
-.project-link {
+/* .project-link {
   width: 45%;
   height: 40vh;
-}
+} */
 
 footer {
   background-color: aquamarine;
